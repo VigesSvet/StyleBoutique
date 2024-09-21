@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>
+            Sign Up - StyleBoutique
+        </title>
+        <link rel="stylesheet" href="..\css\global-css.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1><a href="..\index.html" class="main-button">StyleBoutique</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>    
+                    </ul>
+                </nav>
+            </div>
+        </header>  
+        
+        <main>
+            <div class="block">
+                <p style="width: 100%; text-align: center; margin-bottom: 0; font-size: 50px;">Зарегистрироваться</p>
+                <p style="margin-left: 15px; margin-bottom: -10px; font-size: 25px;">Логин</p>
+                <input type="text" class="text-box" placeholder="Придумайте свой логин здесь..." id="login">
+
+                <p style="margin-left: 15px; margin-bottom: -10px; font-size: 25px;">Пароль</p>
+                <input type="password" class="text-box" placeholder="Придумайте свой пароль..." id="password">
+                <div style="width: 100%; float: right;">
+                    <input type="checkbox" style="margin-left: 15px; margin-top: 5px; height: 20px; width: 20px;" id="show_password"><span style="font-size: 15px;">Показать пароль</span>
+                    <input type="button" class="btn" value="Создать" id="create_profile" disabled>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="..\js\main.js"></script>
+</html>
